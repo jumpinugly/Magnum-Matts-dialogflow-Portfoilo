@@ -1,0 +1,67 @@
+{
+  "id": "3a8ca333-5349-4e77-ab75-8374aa1cf0ea",
+  "name": "FlightBooking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "flight-booking",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5c664c7a-568a-406b-a198-3592fbac0916",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "slack",
+          "imageUrl": "\u003cp\u003e\u003ca href\u003d\"https://commons.wikimedia.org/wiki/File:Tampa_florida_map.jpg#/media/File:Tampa_florida_map.jpg\"\u003e\u003cimg src\u003d\"https://upload.wikimedia.org/wikipedia/commons/5/5c/Tampa_florida_map.jpg\" alt\u003d\"Tampa florida map.jpg\" height\u003d\"663\" width\u003d\"544\"\u003e\u003c/a\u003e\u003cbr\u003eBy terraprints.com - \u003ca rel\u003d\"nofollow\" class\u003d\"external free\" href\u003d\"http://www.terraprints.com\"\u003ehttp://www.terraprints.com\u003c/a\u003e, \u003ca href\u003d\"https://creativecommons.org/licenses/by/2.5\" title\u003d\"Creative Commons Attribution 2.5\"\u003eCC BY 2.5\u003c/a\u003e, \u003ca href\u003d\"https://commons.wikimedia.org/w/index.php?curid\u003d1310631\"\u003eLink\u003c/a\u003e\u003c/p\u003e",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, booking a flight to $geo-city. When would you like to travel?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

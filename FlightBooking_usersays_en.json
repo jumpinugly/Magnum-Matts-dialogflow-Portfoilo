@@ -1,0 +1,59 @@
+[
+  {
+    "id": "05f174cb-4045-4992-8cf5-12b48eafa6a4",
+    "data": [
+      {
+        "text": "I want to Fly to ",
+        "userDefined": false
+      },
+      {
+        "text": "Tampa",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d26d579-d173-4e00-80d9-e7dcda867bc1",
+    "data": [
+      {
+        "text": "I want to fly to New ",
+        "userDefined": false
+      },
+      {
+        "text": "York",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0d5783c-a3e0-4ddc-99c3-cfd6f24a4a4f",
+    "data": [
+      {
+        "text": "I want to fly to ",
+        "userDefined": false
+      },
+      {
+        "text": "Paris",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
